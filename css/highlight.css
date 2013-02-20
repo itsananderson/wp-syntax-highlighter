@@ -1,0 +1,82 @@
+.code {
+	border: 1px solid #ccc;
+	font-family: 'Courier New', monospace;
+	font-size: 10pt;
+}
+
+.code .lines {
+	float: left;
+	background: #eee;
+	width: 50px;
+	border-right: 1px solid gray;
+}
+
+.code table {
+	border-spacing: 0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.code table tr {
+	padding: 0;
+	margin: 0;
+}
+
+.code table tr td {
+	border-spacing: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.code .lines tr {
+	width: 100%;
+}
+
+.code .lines .line {
+	text-align: right;
+	padding: 0px 3px;
+}
+
+.code .highlighted-code {
+	overflow: auto;
+}
+
+.code-table {
+	overflow: auto;
+}
+
+.code-row-even {
+	background-color: #f9f9f9;
+}
+
+.code-row-odd {
+	background-color: #fff;
+}
+
+.code .code-row-cell {
+	padding-left: 10px;
+	white-space: pre;
+}
+
+.code-comment {
+	color: green;
+}
+
+
+.code-variable {
+	color: blue;
+}
+
+.code-keyword {
+	color: purple;
+	font-weight: bold;
+}
+
+.code-string {
+	color: orange;
+}
+
+.code-number {
+	color: red;
+}
